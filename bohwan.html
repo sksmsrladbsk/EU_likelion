@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="hhstyle.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <title>2023학년도 을지대학교 신입생 OT</title>
+</head>
+
+<body>
+  <div class="major">
+    <div class="header">
+      <a href="index.html"><img id="logo" src="lolo.png"></img></a>
+      <!-- <div id="title_kor"><a href="./index.html"></a>멋쟁이사자처럼 을지대학교 11기</div>
+      <div id="title_eng">LIKELION EULJI UNIVERSITY 11th</div> -->
+      <p id="EU"><a href="main.html"><span style="color: #EE7F35"  > Welcome, EU</span></a></p>
+      <p id="likelion"><a href="lionsogea.html"> 멋쟁이사자처럼</a></p>
+    </div>
+    <div class="nav">
+      <p id="back"><img src="back.png"></img></p>
+      <p id="major">보건환경안전학과</p>
+      <div class="nav_right">
+        <p id="a">Welcome, EU</p>
+        <p id="b"><img src="direction.png"></img></p>
+        <p id="c">성남캠퍼스 학과소개</p>
+        <p id="d"><img src="direction.png"></img></p>
+        <p id="e">보건환경안전학과</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <img id="photo" src="major/bohwan.png"></img>
+      <p id="btn_major"><img src="roundRec.png"></img></p>
+      <p id="f">학과소개</p>
+      <div id="text_major">
+        보건환경안전학과는 보건·안전·환경(HSE) 학문 분야에 대한 기초지식과 심화 이론을 교육하고 재해재난에 대</br>
+        비한 각종 유해위험 요소의 분석 및 글로벌 HSE 문제점들에 대한 해결 방안을 창의적으로 연구·개발한다. 또한 </br>
+        지역과 국가를 선도할 수 있는 차세대 리더로서의 핵심 역량과 인성을 갖춘 보건·안전·환경(HSE) 분야의 전문 </br>
+        인재를 양성한다. 이를 위해 유일하게 이공 융합학문을 교육하는 학과로서 창의적 융합 교육과정과 함께 현장</br>
+        실습 및 인턴십 교과과정을 운영, 경쟁력을 배양시키고 있다.
+      </div>
+      <p id="btn_job_5"><img src="roundRec.png"></img></p>
+      <p id="g_5">취업분야</p>
+      <div id="text_job_5">
+        관련 분야 공무원 및 대학원 진학, 보건환경 분야 컨설팅 및 전문기업체, 안전보건 분야 진단기술 업체, 사업장 </br>
+        안전 및 보건관리자 환경 및 안전진단 엔지니어링, 산업위생 관련 분야 등
+      </div>
+
+      <img id="homeRec" src="Rectangle1.png"></img>
+      <img id="homeIcon" src="homePage.png"></img>
+      <a id="homepage" href="https://major.eulji.ac.kr/she/index.html?menuno=2897">학과 홈페이지 바로가기</a>
+      <img id="instaRec" src="Rectangle2.png"></img>
+      <img id="instaIcon" src="insta.png"></img>
+      <a id="instagram" href="https://www.instagram.com/eulji_hes/">학생회 인스타그램 바로가기</a>
+    </div>
+    <div class="fot">
+     
+     
+    </div>
+  </div>
+  <div class="menu">
+
+    <div class="item">
+        <div class="sub-btn">
+            <i id="btn"><img src="을지대학교.png"></a></i>
+            <img id="rightV" src="rightV.png"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+        <div class="sub-menu">
+          <a href="main.html" class="sub-item"><img src="성남캠퍼스 학과소개 (2).png"></a>
+            <a href="ac.html" class="sub-item">성남캠퍼스 건물소개</a>
+            <a href="l.html" class="sub-item">성남캠퍼스 위치안내</a>
+        </div>
+    </div>
+
+
+    <div class="item">
+        <div class="sub-btn">
+          <i id="btn"><a href="otindex.html"><img src="신입생 OT.png"></a></i></br>
+            <img id="rightV" src="rightV.png" style="margin-top: -20px;"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+    </div>
+
+
+    <div class="item">
+        <div class="sub-btn">
+            <i id="btn">성남캠 맛집 추천</i>
+            <img id="rightV" src="rightV.png"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+        <div class="sub-menu">
+            <a href="dish.html" class="sub-item">식사류</a>
+            <a href="cafe.html" class="sub-item">카페</a>
+            <a href="some.html" class="sub-item">술집</a>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.sub-btn').click(function () {
+                    $(this).next('.sub-menu').slideToggle();
+                    $(this).find('.dropdown').toggleClass('rotate');
+                });
+            });
+        </script>
+</body>
+</html>

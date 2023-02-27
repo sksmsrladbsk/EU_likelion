@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="hhstyle.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <title>2023학년도 을지대학교 신입생 OT</title>
+</head>
+
+<body>
+  <div class="major">
+    <div class="header">
+      <a href="index.html"><img id="logo" src="lolo.png"></img></a>
+      <!-- <div id="title_kor"><a href="./index.html"></a>멋쟁이사자처럼 을지대학교 11기</div>
+      <div id="title_eng">LIKELION EULJI UNIVERSITY 11th</div> -->
+      <p id="EU"><a href="main.html"><span style="color: #EE7F35"  > Welcome, EU</span></a></p>
+      <p id="likelion"><a href="lionsogea.html"> 멋쟁이사자처럼</a></p>
+    </div>
+
+    <div class="nav">
+      <p id="back"><img src="back.png"></img></p>
+      <p id="major">안경광학과</p>
+      <div class="nav_right">
+        <p id="a">Welcome, EU</p>
+        <p id="b"><img src="direction.png"></img></p>
+        <p id="c">성남캠퍼스 학과소개</p>
+        <p id="d"><img src="direction.png"></img></p>
+        <p id="e">안경광학과</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <img id="photo" src="major/angwang.png"></img>
+      <p id="btn_major"><img src="roundRec.png"></img></p>
+      <p id="f">학과소개</p>
+      <div id="text_major">
+        안경광학과는 국민 모두가 최고의 시력을 가지고 풍요로운 삶을 영위할 수 있도록 도와주는 시력 보호 전문가</br>
+        를 양성하는 학과다. 안기능 검사, 안경·콘택트렌즈 의 처방과 조제 실무능력을 갖춘 안경사를 배출하고 있으며, </br>
+        30여 년 전통의 탄탄한 교육 경험을 바탕으로 안경업계가 요구하는 실력과 기술을 겸비한 인재를 양성하고 있</br>
+        다. 또한 특성화·글로벌 교육을 통해 국제 면허증(자격증) 취득을 돕고 있으며 한국, 미국, 중국의 안경 광학 분</br>
+        야 전문가로 취업할 기회를 제공한다.
+      </div>
+      <p id="btn_job_5"><img src="roundRec.png"></img></p>
+      <p id="g_5">취업분야</p>
+      <div id="text_job_5">
+        안경원, 안과, 보건직 공무원, 콘택트렌즈제조업체, 콘택트렌즈 관련 다국적기업, 안경테 및 안경렌즈 관련 회</br>
+        사, 안광학기기 제조 및 유통업체, 안경테및 렌즈수출입 판매회사, 광학관련 연구소
+      </div>
+
+      <img id="homeRec" src="Rectangle1.png"></img>
+      <img id="homeIcon" src="homePage.png"></img>
+      <a id="homepage" href="https://major.eulji.ac.kr/optometry/index.html?menuno=2897">학과 홈페이지 바로가기</a>
+      <img id="instaRec" src="Rectangle2.png"></img>
+      <img id="instaIcon" src="insta.png"></img>
+      <a id="instagram" href="https://www.instagram.com/eulji_optometry/">학생회 인스타그램 바로가기</a>
+    </div>
+    <div class="fot">
+     
+     
+    </div>
+  </div>
+  <div class="menu">
+
+    <div class="item">
+        <div class="sub-btn">
+            <i id="btn"><img src="을지대학교.png"></a></i>
+            <img id="rightV" src="rightV.png"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+        <div class="sub-menu">
+          <a href="main.html" class="sub-item"><img src="성남캠퍼스 학과소개 (2).png"></a>
+            <a href="ac.html" class="sub-item">성남캠퍼스 건물소개</a>
+            <a href="l.html" class="sub-item">성남캠퍼스 위치안내</a>
+        </div>
+    </div>
+
+
+    <div class="item">
+        <div class="sub-btn">
+          <i id="btn"><a href="otindex.html"><img src="신입생 OT.png"></a></i></br>
+            <img id="rightV" src="rightV.png" style="margin-top: -20px;"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+    </div>
+
+
+
+    <div class="item">
+        <div class="sub-btn">
+            <i id="btn">성남캠 맛집 추천</i>
+            <img id="rightV" src="rightV.png"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+        <div class="sub-menu">
+            <a href="dish.html" class="sub-item">식사류</a>
+            <a href="cafe.html" class="sub-item">카페</a>
+            <a href="some.html" class="sub-item">술집</a>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.sub-btn').click(function () {
+                    $(this).next('.sub-menu').slideToggle();
+                    $(this).find('.dropdown').toggleClass('rotate');
+                });
+            });
+        </script>
+</body>
+</html>

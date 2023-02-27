@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="hhstyle.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <title>2023학년도 을지대학교 신입생 OT</title>
+</head>
+
+<body>
+  <div class="major">
+    <div class="header">
+      <a href="index.html"><img id="logo" src="lolo.png"></img></a>
+      <!-- <div id="title_kor"><a href="./index.html"></a>멋쟁이사자처럼 을지대학교 11기</div>
+      <div id="title_eng">LIKELION EULJI UNIVERSITY 11th</div> -->
+      <p id="EU"><a href="main.html"><span style="color: #EE7F35"  > Welcome, EU</span></a></p>
+      <p id="likelion"><a href="lionsogea.html"> 멋쟁이사자처럼</a></p>
+    </div>
+    <div class="nav">
+      <p id="back"><img src="back.png"></img></p>
+      <p id="major">의료경영학과</p>
+      <div class="nav_right">
+        <p id="a">Welcome, EU</p>
+        <p id="b"><img src="direction.png"></img></p>
+        <p id="c">성남캠퍼스 학과소개</p>
+        <p id="d"><img src="direction.png"></img></p>
+        <p id="e">의료경영학과</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <img id="photo" src="major/euikyung.png"></img>
+      <p id="btn_major"><img src="roundRec.png"></img></p>
+      <p id="f">학과소개</p>
+      <div id="text_major">
+        의료경영학과는 의무기록에서 국제보건정책에 이르는 의료경영 전반에 걸친 경쟁력 있는 전문인력 양성을 목</br>
+        표로 한다. 최근 보건·의료조직의 규모가 대형화되고 전문성과 복잡성이 증대되고, 환자의 민감정보인 건강정</br>
+        보의 관리가 중요해짐에 따라 의료경영전문인은 그 가치가 높아지고 있다. 특히 보건의료시장의 세계화, 개방</br>
+        화에 대응한 국내 의료산업의 경쟁력 강화에 이바지할 병원경영 전문인력과 효율적인 병원경영을 지원할 다기</br>
+        능 인력을 양성하고 있다.
+      </div>
+      <p id="btn_job_5"><img src="roundRec.png"></img></p>
+      <p id="g_5">취업분야</p>
+      <div id="text_job_5">
+        전문병원, 종합병원, 상급종합병원, 보건직 공무원, 제약회사, 건강보험심사평가원, 건강보험공단, 보건의료 관</br>
+        련 산업체, 임상시험센터, 민간보험회사 손해사정 분야, 의료기관 컨설팅회사 등
+      </div>
+
+      <img id="homeRec" src="Rectangle1.png"></img>
+      <img id="homeIcon" src="homePage.png"></img>
+      <a id="homepage" href="https://major.eulji.ac.kr/hospital/index.html?menuno=2897">학과 홈페이지 바로가기</a>
+      <img id="instaRec" src="Rectangle2.png"></img>
+      <img id="instaIcon" src="insta.png"></img>
+      <a id="instagram" href="https://www.instagram.com/eulji_hm/">학생회 인스타그램 바로가기</a>
+    </div>
+    <div class="fot">
+     
+     
+    </div>
+  </div>
+  <div class="menu">
+
+    <div class="item">
+        <div class="sub-btn">
+            <i id="btn"><img src="을지대학교.png"></a></i>
+            <img id="rightV" src="rightV.png"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+        <div class="sub-menu">
+          <a href="main.html" class="sub-item"><img src="성남캠퍼스 학과소개 (2).png"></a>
+            <a href="ac.html" class="sub-item">성남캠퍼스 건물소개</a>
+            <a href="l.html" class="sub-item">성남캠퍼스 위치안내</a>
+        </div>
+    </div>
+
+
+    <div class="item">
+        <div class="sub-btn">
+          <i id="btn"><a href="otindex.html"><img src="신입생 OT.png"></a></i></br>
+            <img id="rightV" src="rightV.png" style="margin-top: -20px;"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+    </div>
+
+
+
+
+    <div class="item">
+        <div class="sub-btn">
+            <i id="btn">성남캠 맛집 추천</i>
+            <img id="rightV" src="rightV.png"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+        <div class="sub-menu">
+            <a href="dish.html" class="sub-item">식사류</a>
+            <a href="cafe.html" class="sub-item">카페</a>
+            <a href="some.html" class="sub-item">술집</a>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.sub-btn').click(function () {
+                    $(this).next('.sub-menu').slideToggle();
+                    $(this).find('.dropdown').toggleClass('rotate');
+                });
+            });
+        </script>
+</body>
+</html>
