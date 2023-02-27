@@ -1,0 +1,658 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+html {
+  width : 100%;
+  height: 100%;
+}
+
+#logo {
+  position: absolute;
+  width: 448px;
+  height: 97px;
+  left: 110px;
+  top: 65px;
+  /* background: url(logo); */
+}
+
+
+#title_kor {
+  position: absolute;
+  width: 321px;
+  height: 31px;
+  left: 235px;
+  top: 80px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  /* 자동 줄바꿈 방지 */
+  white-space: nowrap;
+
+  color: #16325F;
+}
+
+
+#title_eng {
+  position: absolute;
+  width: 232px;
+  height: 19px;
+  left: 235px;
+  top: 120px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  white-space: nowrap;
+
+  color: #A9A9A9;
+}
+
+
+#EU {
+  position: absolute;
+  width: 151px;
+  height: 63px;
+  left: 1400px;
+  top: 60px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 63px;
+  /* identical to box height, or 242% */
+
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+
+  color: #EE7F35;
+}
+
+
+
+#likelion {
+  position: absolute;
+  width: 155px;
+  height: 63px;
+  left: 1635px;
+  top: 60px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 63px;
+  /* identical to box height, or 242% */
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+#back {
+  position: absolute;
+  width: 19px;
+  height: 16.89px;
+  left: 464px;
+  top: 205px;
+}
+
+#major {
+  position: absolute;
+  width: 250px;
+  height: 31px;
+  left: 503px;
+  top: 190px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+#a {
+  /* position: absolute;
+  width: 131px;
+  height: 20px;
+  left: 1525px;
+  top: 202px; */
+
+  margin-right: 10px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: -0.04em;
+
+  color: #4B4B4B;
+}
+
+#b {
+  margin-right: 10px;
+
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: -0.04em;
+
+  color: #4B4B4B;
+}
+
+#c {
+  /* position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 1690px;
+  top: 202px; */
+
+  /* margin-left: 5px; */
+  margin-right: 10px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+  
+  color: #4B4B4B;
+}
+
+
+#d {
+  /* position: absolute;
+  width: 95px;
+  height: 20px;
+  left: 1640px;
+  top: 261px; */
+  margin-right: 10px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+  
+  color: #4B4B4B;
+}
+
+#e {
+  /* position: absolute;
+  width: 95px;
+  height: 20px;
+  left: 1689px;
+  top: 261px; */
+  margin-right: 10px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+  
+  color: #4B4B4B;
+}
+
+
+.container {
+  height: 600px;
+}
+
+#photo {
+  position: relative;
+  /* width: 538px;
+  height: 641px; */
+  left: 464px;
+  top: 280px;
+
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#btn_major {
+  position: absolute;
+  width: 79px;
+  height: 34px;
+  left: 1072px;
+  top: 270px;
+}
+
+#text_major {
+  position: absolute;
+  width: 718px;
+  height: 185px;
+  left: 1072px;
+  top: 334px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 37px;
+  /* or 206% */
+
+  letter-spacing: -0.04em;
+}
+
+#f {
+  position: absolute;
+  width: 55px;
+  height: 19px;
+  left: 1086px;
+  top: 278px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+/* 학과소개가 6줄일 때 */
+#btn_job_6 {
+  position: absolute;
+  width: 79px;
+  height: 34px;
+  left: 1072px;
+  top: 561px;
+}
+
+#text_job_6 {
+  position: absolute;
+  width: 718px;
+  height: 74px;
+  left: 1072px;
+  top: 625px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 37px;
+  /* or 206% */
+
+  letter-spacing: -0.04em;
+}
+
+#g_6 {
+  position: absolute;
+  width: 55px;
+  height: 19px;
+  left: 1086px;
+  top: 569px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+/* 학과소개가 5줄일 때 */
+#btn_job_5 {
+  position: absolute;
+  width: 79px;
+  height: 34px;
+  left: 1072px;
+  top: 541px;
+}
+
+#text_job_5 {
+  position: absolute;
+  width: 718px;
+  height: 74px;
+  left: 1072px;
+  top: 605px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 37px;
+  /* or 206% */
+
+  letter-spacing: -0.04em;
+}
+
+#g_5 {
+  position: absolute;
+  width: 55px;
+  height: 19px;
+  left: 1086px;
+  top: 549px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+/* 학과소개가 4줄일 때 */
+#btn_job_4 {
+  position: absolute;
+  width: 79px;
+  height: 34px;
+  left: 1072px;
+  top: 521px;
+}
+
+#text_job_4 {
+  position: absolute;
+  width: 718px;
+  height: 74px;
+  left: 1072px;
+  top: 585px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 37px;
+  /* or 206% */
+
+  letter-spacing: -0.04em;
+}
+
+#g_4 {
+  position: absolute;
+  width: 55px;
+  height: 19px;
+  left: 1086px;
+  top: 529px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+/* 학과소개가 3줄일 때 */
+#btn_job_3 {
+  position: absolute;
+  width: 79px;
+  height: 34px;
+  left: 1072px;
+  top: 501px;
+}
+
+#text_job_3 {
+  position: absolute;
+  width: 718px;
+  height: 74px;
+  left: 1072px;
+  top: 565px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 37px;
+  /* or 206% */
+
+  letter-spacing: -0.04em;
+}
+
+#g_3 {
+  position: absolute;
+  width: 55px;
+  height: 19px;
+  left: 1086px;
+  top: 509px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+#homeRec {
+  position: absolute;
+  width: 217px;
+  height: 50px;
+  left: 1072px;
+  top: 841px;
+}
+
+#homeIcon {
+  position: absolute;
+  width: 19px;
+  height: 20px;
+  left: 1087px;
+  top: 856px;
+}
+
+#homepage {
+  position: absolute;
+  width: 157px;
+  height: 22px;
+  left: 1118px;
+  top: 855px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+}
+
+#instaRec {
+  position: absolute;
+  width: 247px;
+  height: 50px;
+  left: 1317px;
+  top: 841px;
+}
+
+#instaIcon {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 1333px;
+  top: 856px;
+}
+
+#instagram {
+  position: absolute;
+  width: 187px;
+  height: 22px;
+  left: 1363px;
+  top: 855px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #2D2D2D;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EE7F35;
+}
+
+.nav_right {
+  /* background-color: cornflowerblue; */
+  position: absolute;
+  width: 430px;
+  height: 20px;
+  left: 1360px;
+  top: 225px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fot{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 1020px;
+  top: 765px;
+}
+.menu {
+  position: absolute;
+  width: 184px;
+  height: 665px;
+  left: 110px;
+  top: 225px;
+}
+
+
+#btn {
+  width: 184px;
+  height: 26px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+
+#rightV {
+  position: absolute;
+  left: 170px;
+  margin-top: 6px;
+}
+
+
+#line {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.sub-item {
+  position: relative;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  width: 280px;
+  height: 24px;
+
+  color: #2D2D2D;
+
+  text-decoration: none;
+  display: block;
+
+  margin-bottom: 20px;
+}
+
+
+.sub-menu {
+  margin-bottom: 50px;
+}
+
+
+.menu.item {
+  position: relative;
+  cursor: pointer;
+}
+
+
+.itme a .dropdown {
+  position: absolute;
+  transition: 0, 3 ease;
+}
+
+
+.item sub-menu {
+  background: #262627;
+  display: none;
+}

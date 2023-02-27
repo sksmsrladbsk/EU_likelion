@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="hhstyle.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <title>2023학년도 을지대학교 신입생 OT</title>
+</head>
+
+<body>
+  <div class="major">
+    <div class="header">
+      <a href="index.html"><img id="logo" src="lolo.png"></img></a>
+      <!-- <div id="title_kor"><a href="./index.html"></a>멋쟁이사자처럼 을지대학교 11기</div>
+      <div id="title_eng">LIKELION EULJI UNIVERSITY 11th</div> -->
+      <p id="EU"><a href="main.html"><span style="color: #EE7F35"  > Welcome, EU</span></a></p>
+      <p id="likelion"><a href="lionsogea.html"> 멋쟁이사자처럼</a></p>
+    </div>
+    <div class="nav">
+      <p id="back"><img src="back.png"></img></p>
+      <p id="major">간호학과 (성남) </p>
+      <div class="nav_right">
+        <p id="a">Welcome, EU</p>
+        <p id="b"><img src="direction.png"></img></p>
+        <p id="c">성남캠퍼스 학과소개</p>
+        <p id="d"><img src="direction.png"></img></p>
+        <p id="e">간호학과 (성남)</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <img id="photo" src="major/ganho.png"></img>
+      <p id="btn_major"><img src="roundRec.png"></img></p>
+      <p id="f">학과소개</p>
+      <div id="text_major">
+        간호학과는 ‘건강간호(Health care)’를 넘어 ‘인간간호(Human care)’를 지향하는 교육철학 아래 명실상부한 </br>
+        보건·의료 분야 국내 최고의 학과로 자리매김해왔다. 특히 성남캠퍼스에 이어 2021년 대전캠퍼스 간호학과가 </br>
+        의정부캠퍼스로 이전하 며 경기 북부를 대표하는 간호 인재 양성의 요람으로 주목받고 있다. 간호사 국가시험 </br>
+        21년 연속 100% 합격이라는 대기록이 입증하듯 학생 중심의 체계적인 이론 교육과 경험 중심의 실습교육, 자</br>
+        대 병원(을지대학교 의료원)과의 협력체계 등 보건 인재 교육기관으로써 필요한 모든 것을 갖췄다.
+      </div>
+      <p id="btn_job_5"><img src="roundRec.png"></img></p>
+      <p id="g_5">취업분야</p>
+      <div id="text_job_5">
+        병원간호사, 공무원(간호/보건직), 보험심사간호사, 연구간호사, 지역 사회간호사(정신건강 복지센터/치매 지</br>
+        원센터/자살예방센터 등), 교수, 산업체 보건관리자, 전문간호사, 창업(노인요양시설/산후조리원), 해외 취업
+      </div>
+
+      <img id="homeRec" src="Rectangle1.png"></img>
+      <img id="homeIcon" src="homePage.png"></img>
+      <a id="homepage" href="https://nursing.eulji.ac.kr/snurse/index.html?menuno=2897">학과 홈페이지 바로가기</a>
+      <img id="instaRec" src="Rectangle2.png"></img>
+      <img id="instaIcon" src="insta.png"></img>
+      <a id="instagram" href="https://www.instagram.com/eulji_nursing_official/">학생회 인스타그램 바로가기</a>
+    </div>
+    <div class="fot">
+     
+     
+    </div>
+  </div>
+  <div class="menu">
+
+    <div class="item">
+        <div class="sub-btn">
+            <i id="btn"><img src="을지대학교.png"></a></i>
+            <img id="rightV" src="rightV.png"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+        <div class="sub-menu">
+            <a href="main.html" class="sub-item"><img src="성남캠퍼스 학과소개 (2).png"></a></a>
+            <a href="ac.html" class="sub-item">성남캠퍼스 건물소개</a>
+            <a href="l.html" class="sub-item">성남캠퍼스 위치안내</a>
+        </div>
+    </div>
+
+
+    <div class="item">
+        <div class="sub-btn">
+          <i id="btn"><a href="otindex.html"><img src="신입생 OT.png"></a></i></br>
+            <img id="rightV" src="rightV.png" style="margin-top: -20px;"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+    </div>
+
+
+
+
+    <div class="item">
+        <div class="sub-btn">
+            <i id="btn">성남캠 맛집 추천</i>
+            <img id="rightV" src="rightV.png"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+        <div class="sub-menu">
+            <a href="dish.html" class="sub-item">식사류</a>
+            <a href="cafe.html" class="sub-item">카페</a>
+            <a href="some.html" class="sub-item">술집</a>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.sub-btn').click(function () {
+                    $(this).next('.sub-menu').slideToggle();
+                    $(this).find('.dropdown').toggleClass('rotate');
+                });
+            });
+        </script>
+</body>
+</html>

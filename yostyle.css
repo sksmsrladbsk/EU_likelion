@@ -1,0 +1,1378 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+html {
+  width : 100%;
+  height: 100%;
+}
+
+/* 심볼 */
+#logo {
+  position: absolute;
+  width: 448px;
+  height: 97px;
+  left: 110px;
+  top: 65px;
+  /* background: url(logo); */
+}
+.container{
+  position: absolute;
+width: 1325px;
+height: 90px;
+left: 463px;
+top: 2263px;
+}
+.box {
+  position: relative;
+  width: 400px;
+  height: 510px;
+  left: 450px;
+  top: 310px;
+}
+
+/* 멋쟁이사자처럼 을지대학교 11기 */
+#title {
+  position: absolute;
+  width: 321px;
+  height: 31px;
+  left: 257px;
+  top: 110px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  /* 자동 줄바꿈 방지 */
+  white-space: nowrap;
+
+  color: #16325F;
+}
+
+
+/* LIKELION EULJI UNIVERSITY 11th */
+#title_eng {
+  position: absolute;
+  width: 232px;
+  height: 19px;
+  left: 257px;
+  top: 150px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  white-space: nowrap;
+
+  color: #A9A9A9;
+}
+
+/* Welcome, EU */
+
+#EU {
+  position: absolute;
+  width: 151px;
+  height: 63px;
+  left: 1400px;
+  top: 60px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 63px;
+  /* identical to box height, or 242% */
+
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+
+  color: #EE7F35;
+}
+
+
+#likelion {
+  position: absolute;
+  width: 155px;
+  height: 63px;
+  left: 1635px;
+  top: 60px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 63px;
+  /* identical to box height, or 242% */
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+/*페이지 위치
+.SeongnamMajor {
+  position: absolute;
+  width: 1326px;
+  height: 31px;
+  left: 464px;
+  top: 255px;
+} 
+
+
+/* 성남캠퍼스 학과 소개 📚 */
+
+#lion {
+  position: absolute;
+  width: 181px;
+  height: 31px;
+  left: 465px;
+  top: 255px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+#book {
+  position: absolute;
+  width: 250px;
+  height: 31px;
+  left: 464px;
+  top: 190px;
+  
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  color: #2D2D2D; 
+}
+
+.nav_right {
+  /* background-color: cornflowerblue; */
+  position: absolute;
+  width: 430px;
+  height: 20px;
+  left: 1360px;
+  top: 225px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#a {
+  /* position: absolute;
+  width: 131px;
+  height: 20px;
+  left: 1525px;
+  top: 202px; */
+
+  margin-right: 10px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: -0.04em;
+
+  color: #4B4B4B;
+}
+
+#b {
+  margin-right: 10px;
+
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: -0.04em;
+
+  color: #4B4B4B;
+}
+
+#c {
+  /* position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 1690px;
+  top: 202px; */
+
+  /* margin-left: 5px; */
+  margin-right: 10px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+  
+  color: #4B4B4B;
+}
+
+
+#d {
+  /* position: absolute;
+  width: 95px;
+  height: 20px;
+  left: 1640px;
+  top: 261px; */
+  margin-right: 10px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+  
+  color: #4B4B4B;
+}
+
+#e {
+  /* position: absolute;
+  width: 95px;
+  height: 20px;
+  left: 1689px;
+  top: 261px; */
+  margin-right: 10px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+  
+  color: #4B4B4B;
+}
+
+#img_view {
+  position: absolute;
+  width: 410px;
+  height: 297px;
+  left: 464px;
+  top: 346px;
+
+  border-radius: 6px;
+}
+
+#rectangle1 {
+  position: absolute;
+  width: 632px;
+  height: 136px;
+  left: 461px;
+  top: 372px;
+
+  background: #414141;
+  border-radius: 8px;
+}
+
+#rectangle2 {
+  position: absolute;
+  width: 632px;
+  height: 136px;
+  left: 465px;
+  top: 583px;
+
+  background: #414141;
+  border-radius: 8px;
+}
+
+#rectangle3 {
+  position: absolute;
+  width: 632px;
+  height: 136px;
+  left: 465px;
+  top: 799px;
+
+  background: #414141;
+  border-radius: 8px;
+}
+
+.who_can {
+  position: absolute;
+  width: 101px;
+  height: 36px;
+  left: 723px;
+  top: 423px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.when_do1 {
+  /* 활동 기간 */
+
+  position: absolute;
+  width: 107px;
+  height: 36px;
+  left: 727px;
+  top: 613px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+}
+
+.when_do2 {
+  /* 2023년 3월 - 12월 (10개월) */
+
+
+  position: absolute;
+  width: 230px;
+  height: 30px;
+  left: 668px;
+  top: 659px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #C8C8C8;
+}
+
+.when_apply {
+  position: absolute;
+  width: 107px;
+  height: 36px;
+  left: 728px;
+  top: 849px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+#jiwon_hangmok1 {
+  position: absolute;
+  left: 1151px;
+  right: 39.01%;
+  top: 380px;
+  bottom: 83.85%;
+
+  /*background: #EE7F35;*/
+}
+
+#jiwon_hangmok2 {
+  position: absolute;
+  left: 1151px;
+  right: 39.01%;
+  top: 430px;
+  bottom: 83.85%;
+}
+
+#jiwon_hangmok3 {
+  position: absolute;
+  left: 1151px;
+  right: 39.01%;
+  top: 475px;
+  bottom: 83.85%;
+}
+
+.who_can1 {
+  position: absolute;
+  width: 619px;
+  height: 30px;
+  left: 1189px;
+  top: 375px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+
+}
+
+.who_can1_1 {
+  position: absolute;
+  width: 619px;
+  height: 30px;
+  left: 1620px;
+  top: 375px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #858282;
+
+}
+
+.who_can2 {
+  /* 개발 및 창업에 도전하고 싶은 대학생 */
+
+
+  position: absolute;
+  width: 269px;
+  height: 30px;
+  left: 1189px;
+  top: 425px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+
+}
+
+.who_can3 {
+  /* 아이디어를 실현시키려는 열정을 가진 대학생 */
+
+
+  position: absolute;
+  width: 331px;
+  height: 30px;
+  left: 1189px;
+  top: 470px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+
+}
+
+#hwaldong_hangmok1 {
+  position: absolute;
+  left: 1151px;
+  right: 39.01%;
+  top: 619px;
+  bottom: 83.85%;
+
+  /*background: #EE7F35;*/
+}
+
+#hwaldong_hangmok2 {
+  position: absolute;
+  left: 1151px;
+  right: 39.01%;
+  top: 664px;
+  bottom: 83.85%;
+}
+
+.action1 {
+  /* 전체 중앙 OT : 23. 03. 29 (수) 18~19시 온라인 진행 */
+
+
+  position: absolute;
+  width: 406px;
+  height: 30px;
+  left: 1189px;
+  top: 614px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+.action2 {
+  /* 을지대학교 멋사 첫 세션 : 23. 03. 28 (화) 17시 */
+
+
+  position: absolute;
+  width: 539px;
+  height: 30px;
+  left: 1189px;
+  top: 659px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+
+}
+
+.action2_1 {
+  /* (매주 화요일 오프라인 진행) */
+
+
+  position: absolute;
+  width: 539px;
+  height: 30px;
+  left: 1550px;
+  top: 659px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #858282;
+
+}
+
+.iljeong1 {
+  /* 서류 지원 : 23. 02. 20 (월) ~ 03. 12 (일) */
+
+
+  position: absolute;
+  width: 326px;
+  height: 30px;
+  left: 1189px;
+  top: 807px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+.iljeong2 {
+  /* 1차 합격 발표 : 23.03. 14 (화) 개별발표 *1차 합격자 대상 2차 대면면접 일정 추후 공지 */
+
+
+  position: absolute;
+  width: 600px;
+  height: 30px;
+  left: 1189px;
+  top: 852px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+
+}
+
+.iljeong2_2 {
+  /* 1차 합격 발표 : 23.03. 14 (화) 개별발표 *1차 합격자 대상 2차 대면면접 일정 추후 공지 */
+
+
+  position: absolute;
+  width: 600px;
+  height: 30px;
+  left: 1490px;
+  top: 852px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #858282;
+
+}
+
+.iljeong3 {
+  /* 최종 합격자 발표 : 23. 03. 20 (월) 개별발표 */
+
+
+  position: absolute;
+  width: 333px;
+  height: 30px;
+  left: 1189px;
+  top: 897px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+#mojib_hangmok1 {
+  position: absolute;
+  left: 1151px;
+  right: 39.01%;
+  top: 812px;
+  bottom: 83.85%;
+}
+
+#mojib_hangmok2 {
+  position: absolute;
+  left: 1151px;
+  right: 39.01%;
+  top: 857px;
+  bottom: 83.85%;
+}
+
+#mojib_hangmok3 {
+  position: absolute;
+  left: 1151px;
+  right: 39.01%;
+  top: 902px;
+  bottom: 83.85%;
+}
+
+#line1 {
+  position: absolute;
+  width: 1325px;
+  height: 0px;
+  left: 465px;
+  top: 1035px;
+}
+
+#mojibbunya {
+  /* 트랙 모집분야 */
+
+
+  position: absolute;
+  width: 135px;
+  height: 31px;
+  left: 465px;
+  top: 1135px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+#develop_track_rect {
+
+
+  position: absolute;
+  width: 632px;
+  height: 165px;
+  left: 465px;
+  top: 1252px;
+
+  background: #414141;
+  border-radius: 8px;
+}
+
+#develop_track_icon {
+  position: absolute;
+  width: 31px;
+  height: 33px;
+  left: 765px;
+  top: 1289px;
+
+}
+
+.develop_track_mean {
+  /* 개발 트랙 */
+
+
+  position: absolute;
+  width: 121px;
+  height: 41px;
+  left: 720px;
+  top: 1338px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+#pm_and_designer_track_rect {
+  position: absolute;
+  width: 632px;
+  height: 165px;
+  left: 1158px;
+  top: 1252px;
+
+  background: #414141;
+  border-radius: 8px;
+}
+
+#pm_and_designer_track_icon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 1458px;
+  top: 1289px;
+
+  background: url(Vector.png);
+}
+
+.pm_and_designer_track_mean {
+  position: absolute;
+  width: 219px;
+  height: 41px;
+  left: 1364px;
+  top: 1338px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+#NKPa {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 465px;
+  top: 1488px;
+
+  background: url(Vector.png);
+}
+
+.NKP1 {
+  position: absolute;
+  width: 259px;
+  height: 30px;
+  left: 512px;
+  top: 1487px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  /* identical to box height, or 115% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+
+}
+
+#NKP1_1 {
+  /* 개발 트랙은 추후 2차 대면 면접 진행 시 프론트엔드 / 백엔드 / aPP 희망 파트 질문 예정이오니 면접 준비에 참고 부탁드립니다. */
+
+
+  position: absolute;
+  width: 921px;
+  height: 30px;
+  left: 465px;
+  top: 1547px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+#NKP1_2 {
+  /* APP 파트는 지원 수가 적을 시 자동 파트 변경 진행될 수 있는 점 참고 부탁드립니다. */
+
+
+  position: absolute;
+  width: 610px;
+  height: 30px;
+  left: 465px;
+  top: 1588px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+#NKPb {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 465px;
+  top: 1677px;
+
+  background: url(Vector.png);
+}
+
+.NKP2 {
+  /* 기획•디자인 트랙 지원 시 참고사항 */
+
+
+  position: absolute;
+  width: 334px;
+  height: 30px;
+  left: 512px;
+  top: 1676px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  /* identical to box height, or 115% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+
+}
+
+#NKP2_1 {
+  /* 지원 희망자 중 의료홍보디자인학과 1학년의 경우 트랙 이해도를 돕기 위하여 전공선택 과목인 ‘앱디자인i’ 강의 수강신청을 권장드립니다. */
+
+
+  position: absolute;
+  width: 995px;
+  height: 30px;
+  left: 465px;
+  top: 1736px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+
+}
+
+#NKP2_2 {
+  /* 해당 트랙은 디자인 분야 중 UX/UI 디자인을 중점으로 다루는 트랙이오니 참고 부탁드립니다. */
+
+
+  position: absolute;
+  width: 677px;
+  height: 30px;
+  left: 465px;
+  top: 1777px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+
+}
+
+#line2 {
+  position: absolute;
+  width: 1325px;
+  height: 0px;
+  left: 465px;
+  top: 1907px;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.how_apply1 {
+  /* 지원 방법 */
+
+
+  position: absolute;
+  width: 93px;
+  height: 31px;
+  left: 465px;
+  top: 1993px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+
+}
+
+.how_apply2 {
+  /* 23. 02.20 (월) PM 06:00 멋쟁이사자처럼 을지대학교 인스타그램과 에브리타임을 통하여 구글 폼 링크 공개 예정 */
+
+
+  position: absolute;
+  width: 1099px;
+  height: 30px;
+  left: 691px;
+  top: 1993px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  /* identical to box height, or 115% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+.how_apply3 {
+  /* 지원 시 (개발 & 기획디자인 트랙) 2가지 트랙 중 한 가지 지원, 중복 지원과 수정이 불가능합니다. */
+
+
+  position: absolute;
+  width: 701px;
+  height: 30px;
+  left: 691px;
+  top: 2043px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #858282;
+}
+
+.plz_contact1 {
+  /* 지원 문의 */
+
+
+  position: absolute;
+  width: 93px;
+  height: 31px;
+  left: 465px;
+  top: 2131px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+}
+
+#plz_contact2 {
+  position: absolute;
+  width: 25px;
+  height: 21px;
+  left: 689px;
+  top: 2082px;
+
+  background: url(편지.png);
+}
+
+.plz_contact3 {
+  position: absolute;
+  width: 687px;
+  height: 30px;
+  left: 738px;
+  top: 2131px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  /* identical to box height, or 115% */
+
+  letter-spacing: -0.04em;
+  text-transform: lowercase;
+
+  color: #2D2D2D;
+}
+
+#plz_contact4 {
+  position: absolute;
+  width: 27px;
+  height: 25.88px;
+  left: 691px;
+  top: 2189px;
+
+}
+
+.plz_contact5 {
+  position: absolute;
+  width: 385px;
+  height: 30px;
+  left: 738px;
+  top: 2187px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  /* identical to box height, or 115% */
+
+  letter-spacing: -0.04em;
+  text-transform: lowercase;
+
+  color: #2D2D2D;
+}
+
+#rectangle4 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1325px;
+  height: 90px;
+  left: 466px;
+  top: 2317px;
+
+  background: #FFFFFF;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  margin-bottom: 1000px;
+}
+
+#insta1 {
+  position: absolute;
+width: 29.58px;
+height: 29.58px;
+left: 868px;
+top: 2347.58px;
+}
+
+#insta2 {
+  /* 을지대학교 멋쟁이 사자처럼 인스타그램 바로가기 */
+
+
+position: absolute;
+width: 436px;
+height: 29px;
+left: 918px;
+top: 2325px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+letter-spacing: -0.04em;
+
+color: #2D2D2D;
+}
+
+/*
+
+
+*/
+
+#moreV {
+  position: absolute;
+  /* width: 7px;
+  height: 4px;
+  left: 639px;
+  top: 693px; */
+
+  width: 4px;
+  height: 7px;
+  left: 639px;
+  top: 687px;
+
+  /* border: 1px solid #2D2D2D;
+  transform: rotate(-90deg); */
+}
+
+#roundRec {
+  position: absolute;
+  /* width: 52px;
+  height: 23px; */
+  left: 599px;
+  top: 678px;
+
+  /* border: 1px solid #999999;
+  border-radius: 40px; */
+}
+.fot{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 1020px;
+  top: 2317px;
+}
+.menu {
+  position: absolute;
+  width: 184px;
+  height: 665px;
+  left: 110px;
+  top: 225px;
+}
+
+
+#btn {
+  width: 184px;
+  height: 26px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+
+#rightV {
+  position: absolute;
+  left: 170px;
+  margin-top: 6px;
+}
+
+
+#line {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.sub-item {
+  position: relative;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  width: 280px;
+  height: 24px;
+
+  color: #2D2D2D;
+
+  text-decoration: none;
+  display: block;
+
+  margin-bottom: 20px;
+}
+
+
+.sub-menu {
+  margin-bottom: 50px;
+}
+
+
+.menu.item {
+  position: relative;
+  cursor: pointer;
+}
+
+
+.itme a .dropdown {
+  position: absolute;
+  transition: 0, 3 ease;
+}
+
+
+.item sub-menu {
+  background: #262627;
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: #2D2D2D;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EE7F35;
+}
+
+
+/*a {
+  position: absolute;
+  width: 26px;
+  height: 12px;
+  left: 609px;
+  top: 684px;
+  /* top: 683px; */
+/* left: 607px; */
+/*
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+/*
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  color: #2D2D2D;
+}
+
